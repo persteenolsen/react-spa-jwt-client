@@ -1,0 +1,18 @@
+
+      
+
+       input[type=text] {
+              margin: 5px;
+              padding: 5px;
+              border-radius: 5px;
+              border: 1px ridge black;
+              width:250px;
+          }
+
+          input[type=password] {
+              margin: 5px;
+              padding: 5px;
+              border-radius: 5px;
+              border: 1px ridge black;
+              width:250px;
+          }
