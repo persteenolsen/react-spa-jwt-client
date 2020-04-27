@@ -8,6 +8,6 @@
   - The user will have access to the secure endpoints of  the Web API passing login and using the JWT</li>
    
   - React, HTML, CSS, JavaScript ES5 and ES6
-  - React Bootstrap for the responsive design
+  - Bootstrap for the Navigation Menu and React Bootstrap for the responsive design like Buttons
   - React BrowserRouter for navigation
   - Visual Studio Code as Text Editor
