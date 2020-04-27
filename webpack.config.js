@@ -65,9 +65,11 @@ module.exports = {
         // global app config object
         config: JSON.stringify({
         
-                
+        // NOTE: FOR PRODUCTION ON AZURE!!!
+         apiUrl: 'https://pso-express-react-jwt.azurewebsites.net/'
+            
         // NOTE: FOR TESTING LOCALLY!!!
-         apiUrl: 'http://localhost:443'
+        //apiUrl: 'http://localhost:443'
         })
     }
 }
