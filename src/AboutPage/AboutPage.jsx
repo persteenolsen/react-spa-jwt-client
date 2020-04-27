@@ -26,7 +26,8 @@ class AboutPage extends React.Component {
              <br/> <br/>
           
           <ul>
-            <li>Webpack serving as a module bundler</li>
+            <li>Manuel configuration of the Webpack serving as a module bundler</li>
+			<li>This React Application is NOT made by "Create React App" </li>
             <li>Babel for transpiling JavaScript React ES6 to JavaScript ES5 ready for browsers</li>
             <li>The login system is using a JSON Web Token ( JWT )</li>
             <li>The user will have access to the secure endpoints of 
@@ -42,7 +43,7 @@ class AboutPage extends React.Component {
           
           <ul>
              <li>React, HTML, CSS, JavaScript ES5 and ES6</li>
-             <li>React Bootstrap for the responsive design</li>
+             <li>Traditionel Bootstrap by CDN for the responsive design</li>
 	         <li>React BrowserRouter for navigation</li>
          </ul>
 

@@ -2,8 +2,6 @@ import React from 'react'
 import { Link, withRouter } from 'react-router-dom'
 import queryString from 'query-string';
 
-import Button from "react-bootstrap/Button";
-
 import config from 'config';
 import { authHeader, handleResponse } from '@/_helpers';
 
@@ -136,9 +134,9 @@ class EditPersonPage extends React.Component {
            </tr>
 
            <tr>
-              <td colSpan="2">			 
-			 
-			  <Button variant="outline-primary" type="submit">Submit</Button>{' '}
+              <td colSpan="2">	
+			  
+			   <button type="submit" class="btn btn-outline-primary">Submit</button>
 			  
              </td>
            </tr>

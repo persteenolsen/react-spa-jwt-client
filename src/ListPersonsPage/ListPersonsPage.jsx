@@ -2,8 +2,6 @@ import React from 'react'
 
 import { Link, withRouter } from 'react-router-dom';
 
-import Button from "react-bootstrap/Button";
-
 import config from 'config';
 import { authHeader, handleResponse } from '@/_helpers';
 
@@ -108,8 +106,8 @@ class ListPersonsPage extends React.Component{
             
                   <td>
 				  
-				   <Button variant="outline-warning" onClick={this.editPerson.bind(this, persons.id)}>Edit</Button>{' '}
-				   <Button variant="outline-danger" onClick={this.deletePerson.bind(this, persons.id)}>Delete</Button>{' '}
+				   <button class="btn btn-outline-warning" onClick={this.editPerson.bind(this, persons.id)}>Edit</button>{' '}
+				   <button class="btn btn-outline-danger" onClick={this.deletePerson.bind(this, persons.id)}>Delete</button>{' '}
                                     
                  </td>
                  
